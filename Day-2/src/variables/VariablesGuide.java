@@ -19,12 +19,28 @@ public class VariablesGuide {
 
 
         /**
+         *
+         * byte
+         *  1 1 1 1 1 1 1 1
+         *
+         * short
+         *  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+         */
+
+
+        /**
          * All Integers without decimal
          */
         byte byteVariable = 127;
         short shortVariable = 32767;
         int intVariable = 2147483647;
         long longVariable = 9223372036854775807L;
+
+        long[] longArray = {9223372036854775807L,9223372036854775806L};
+
+        /**
+         *  6 + 6 = 12
+         */
 
         /**
          * All Floats with decimal

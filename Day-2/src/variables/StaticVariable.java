@@ -3,6 +3,11 @@ package variables;
 public class StaticVariable {
     public static void main(String[] args){
 
+        /**
+         *
+         * Static Class Level declared
+         */
+
         Main main1 = new Main();
         Main main2 = new Main();
 
